@@ -7,6 +7,6 @@ resource "aws_instance" "example" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "jenkins"
+    Name = "jenkins_new"
   }
 }
